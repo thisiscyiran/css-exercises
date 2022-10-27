@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -9,17 +10,60 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.model-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .2);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: large;
+}
+
+.conti-cancel {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 58px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  margin-top: 6px;
+}
+
+.text {
+  margin-left: 58px;
+  margin-bottom: 20px;
+}
+
+.icon-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
 }
 
 .icon {
